@@ -1,12 +1,26 @@
 /* Style the header with a grey background and some padding */
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      html, body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
 .header {
         overflow: hidden;
         background-color: #1D4A7D;
-        padding: 20px 10px;
+        padding: 20px 7px;
       }
-      .header h1 {
+
+
+.header h1 {
         color: #F4C542
-      }
+}
       .header h3 {
         color: #FFFFFF
       }
@@ -19,14 +33,14 @@
         padding: 12px;
         text-decoration: none;
         font-size: 18px;
-        line-height: 25px;
+        line-height: 10px;
         border-radius: 4px;
+        
       }
       
       /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
       .header a.logo {
-        font-size: 25px;
-        font-weight: bold;
+        width: 12%
       }
       
       /* Change the background color on mouse-over */
@@ -63,6 +77,8 @@
         left: 0;
         bottom: 0;
         width: 100%;
+        padding-top: 2%;
+        padding-bottom: 2%;
         background-color: #1D4A7D;
         color: white;
         text-align: center;

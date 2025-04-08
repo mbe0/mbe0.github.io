@@ -1,88 +1,59 @@
-/* Style the header with a grey background and some padding */
-* {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-      
-      html, body {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-      }
+body {
+  margin: 0;
+}
 
 .header {
-        overflow: hidden;
-        background-color: #1D4A7D;
-        padding: 20px 7px;
-      }
-
-
-.header h1 {
-        color: #F4C542
+  background-color: #1D4A7D;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
 }
-      .header h3 {
-        color: #FFFFFF
-      }
-      
-      /* Style the header links */
-      .header a {
-        float: left;
-        color: #FFFFFF;
-        text-align: center;
-        padding: 12px;
-        text-decoration: none;
-        font-size: 18px;
-        line-height: 10px;
-        border-radius: 4px;
-        
-      }
-      
-      /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
-      .header a.logo {
-        width: 12%
-      }
-      
-      /* Change the background color on mouse-over */
-      .header-right a:hover {
-        background-color: #60A3D9;
-        color: #FFFFFF;
-      }
-      
-      /* Style the active/current link*/
-      .header-right a.active {
-        background-color: dodgerblue;
-        color: white;
-      }
-      
-      /* Float the link section to the right */
-      .header-right {
-        float: right;
-      }
-      
-      /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
-      @media screen and (max-width: 500px) {
-        .header a {
-          float: none;
-          display: block;
-          text-align: left;
-        }
-        .header-right {
-          float: none;
-        }
-      }
 
-      .footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        padding-top: 2%;
-        padding-bottom: 2%;
-        background-color: #1D4A7D;
-        color: white;
-        text-align: center;
-      }
+.logontitle {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
 
-      
-      
+.logontitle img {
+  height: 60px;
+}
+
+.logontitle h1 {
+  font-size: 24px;
+  color: #F4C542;
+  font-family: 'Volkhov', serif;
+  margin-bottom: 0;
+}
+
+.logontitle h3 {
+  font-size: 14px;
+  color: white;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+.logontitle h1,
+.logontitle h3 {
+  line-height: 1.2;
+}
+
+.header-right {
+  display: flex;
+  gap: 25px;
+}
+
+.header-right a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 6px 10px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.header-right a:hover {
+  color: #F4C542;
+  transition: color 0.2s ease-in-out;
+}

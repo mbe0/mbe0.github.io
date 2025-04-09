@@ -4,7 +4,7 @@ body {
 
 .header {
   background-color: #1D4A7D;
-  padding: 20px 40px;
+  padding: 10px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,17 +44,18 @@ body {
 .header-right {
   display: flex;
   gap: 25px;
+  font-family: "Volkhov", serif;
 }
 
 .header-right a {
   color: white;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 18px;
   padding: 6px 10px;
-  transition: background-color 0.2s ease-in-out;
 }
 
 .header-right a:hover {
+  font-size: 19px;
   color: #F4C542;
   transition: color 0.2s ease-in-out;
 }
@@ -65,7 +66,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 
-  min-height: 65vh;
+  min-height: 67.1vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -97,5 +98,52 @@ body {
 .donate-section a:hover {
   background-color: #1D4A7D;
   color: white;
-  transition: color 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.site-footer {
+  background-color: #1D4A7D;
+  color: white;
+  padding: 22.5px 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.footer-left p, .footer-right p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.footer-left p {
+  text-align: right;
+}
+
+.footer-left a {
+  font-weight: 500;
+  color: white;
+  text-decoration: underline;
+}
+
+.footer-center img {
+  height: 50px;
+}
+
+.social-icons a img {
+  height: 24px;
+  margin: 0 10px;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
 }

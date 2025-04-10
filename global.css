@@ -60,47 +60,6 @@ body {
   transition: color 0.2s ease-in-out;
 }
 
-.hero-section {
-  background-image: url("images/home.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  min-height: 67.1vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-
-  color: white;
-  padding: 60px 20px;
-}
-
-.donate-section {
-  margin-top: 30rem;
-  font-family: "Poppins", sans-serif;
-}
-
-.donate-section h1 {
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.donate-section a {
-  text-decoration: none;
-  color: white;
-  font-weight: 600;
-  background-color: #F4C542;
-  padding: 10px 20px;
-  border-radius: 10px;
-}
-
-.donate-section a:hover {
-  background-color: #1D4A7D;
-  color: white;
-  transition: 0.2s ease-in-out;
-}
-
 .site-footer {
   background-color: #1D4A7D;
   color: white;
